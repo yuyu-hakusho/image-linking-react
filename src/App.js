@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import drakeYes from './drake-yes.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className="no" alt="Drake saying no meme" src="/drake-no.jpg" />
+      <img className="yes" alt="Drake saying yes meme" src={drakeYes} />
     </div>
   );
 }
